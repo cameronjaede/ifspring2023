@@ -1,0 +1,43 @@
+section{
+    margin: 0 0 50px 0;
+}
+
+p{
+    margin: 3px 0 0 0;
+}
+
+h1 {text-align: center;}
+h3 {text-align: center;}
+p {text-align: center;}
+
+.h1{
+    font-family: "fino-sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+}
+
+.h3{
+    font-family: "fino-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;    
+}
+
+.p{
+    font-family: "cherry-blossoms-wide", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: x-large;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  body{
+  background-image: url('../images/fallingleaves.jpg');
+  }
