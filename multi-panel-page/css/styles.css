@@ -1,0 +1,143 @@
+body{
+    margin:0;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+header{
+    background-color: rgba(255,0,0,.3);
+    text-align: center;
+    padding-top: 152px;
+    padding-bottom: 185px;
+    background-image: url(../images/heading\ image.JPG);
+    background-position: center;
+    color: yellow;
+}
+
+h1, h2, h3, h4, h5, p {
+    margin:0;
+}
+
+h1{
+    font-size: 80px;
+}
+
+header h2{
+    font-size: 30px;
+    line-height: 35px;
+
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+section{
+    padding-top: 20px;
+}
+
+section:first-of-type {
+    background-color: rgba(0,0,255,.3);
+    padding-bottom: 70px;
+    background-color: lightyellow;
+}
+
+.main-column {
+    width: 960px;
+    margin: auto;
+}
+
+p{
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 25.25px;
+    margin-bottom: -14px;
+}
+
+.image2 {
+    width: 400px;
+    height: 300px;
+    float: right;
+    margin-top: 30px;
+    margin-left: 46px;
+    margin-bottom: 30px;
+}
+
+section:nth-of-type(2) {
+    padding-top: 40px;
+    background-color: lightseagreen;
+    padding-bottom: 40px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    padding:0px;
+    margin: 0;
+}
+
+.flex img{
+    height: 150px;
+    width: 200px;
+    object-fit: cover;
+    margin-right: 13px;
+    margin-bottom: 8px;
+    margin-top: 16px;
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.caption{
+    font-size: 18px;
+    position: relative;
+    line-height: 25px;
+    margin-right: 55px;
+    margin-top: 6px;
+}
+.phototitle{
+    font-weight: bold;
+    position: relative;
+    margin-top: 17px;
+    font-size: 20px;
+}
+
+section:nth-of-type(3){
+    padding-top:40px;
+    background-color: lightblue;
+    padding-bottom: 115px;
+}
+
+.bottom-text{
+    text-align: center;
+    font-size: 24.5px;
+    font-weight: bold;
+    margin-left: 123px;
+    margin-right: 123px;
+    margin-top: 33px;
+    line-height: 36px;
+}
+
+footer{
+    background-color: thistle;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+
+.copyright{
+    margin-top: 20px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-left: 280px;
+}
+
+.flex li{
+    width: 50%;
+}
+
+.photogrid h2{
+    margin-bottom:15px;
+}
