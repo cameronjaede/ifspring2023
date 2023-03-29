@@ -1,0 +1,420 @@
+body{
+    margin: 0px;
+    padding: 100px;
+}
+
+div{
+    display: flex;
+}
+
+.button-container {
+    background-color: #ebf3ff;
+    border: 1px solid rgb(173, 173, 173);
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.coca-cola{
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius:20px;
+    margin: auto;
+    padding: 3px 40px 0 40px;
+    text-decoration: none;
+    background-color: #aa0000;
+    color: white;
+    font-size: 20px;
+    transition: all .5s;
+}
+
+.coca-cola img{
+    width: 75px;
+    margin: auto;
+}
+
+.coca-cola:hover {
+    background-color: white;
+    box-shadow: 0 0 8px red;
+}
+
+.coca-cola:hover img{
+
+}
+
+.apple {
+    margin:auto;
+    color:black;
+    font-size:100px;
+    transition: all .3s;
+}
+
+.apple:hover{
+    color: gray;
+}
+.harley-davidson{
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    color: black;
+    transition: all .5s;
+    text-decoration: none;
+}
+
+.harley-davidson:hover{
+    color: orange;
+    font-size: 16px;
+}
+
+.lyft{
+    display: inline-block;
+    height: 125px;
+    width: 125px;
+    box-sizing: border-box;
+    border-radius: 75px;
+    margin: auto;
+    background-color: #FF00BF;
+    transition: all .5s;
+}
+
+.lyft img {
+    width: 90px;
+    margin: auto;
+    padding-top: 32px;
+}
+
+.lyft:hover{
+    background-color: black;
+}
+
+.cartoon-network{
+    margin: auto;
+}
+.cartoon-network img{
+    width: 200px;
+    margin: auto;
+    transition: all;
+}
+
+.cartoon-network:hover img{
+
+        animation-duration: 1s;
+        animation-fill-mode: both;
+        animation-iteration-count:infinite;
+        animation-name: bounce; 
+        width: 200px;
+        height: 150px;
+        position: relative;
+    }
+
+    @keyframes bounce { 
+        0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+        40% {transform: translateY(-30px);} 
+        60% {transform: translateY(-15px);} 
+    } 
+
+.tesla{
+    margin: auto;
+    display: inline-block;
+    height: 75px;
+    width: 240px;
+    box-sizing: border-box;
+    background-color: rgb(245, 245, 245);
+    border-radius: 3px;
+    transition: all .5s;
+}
+.tesla img{
+    margin: auto;
+    width: 200px;
+    margin-top: -10px;
+}
+
+.tesla:hover {
+    background-color:rgb(173, 173, 173);
+}
+.facebook{
+    margin: auto;
+    width: 150px;
+}
+
+.facebook .fa-facebook-official{
+    font-size: 110px;
+    transition: all .5s;
+    color: #4267B2;
+    text-decoration: none;
+}
+
+.facebook:hover .fa-facebook-official{
+    color: black;
+}
+
+.nike {
+    margin: auto;
+    display: inline-block;
+    height: 150px;
+    width: 200px;
+    border-radius: 5px;
+    transition: all .5s;
+}
+
+.nike img{
+    width:200px;
+}
+
+.nike:hover{
+    background-color: white;
+    box-shadow: 0 0 8px #e1e1e1;
+}
+
+.samsung {
+    margin: auto;
+    display: inline-block;
+    height: 100px;
+    width: 250px;
+    border-radius: 50px;
+    background-color: white;
+    transition: all .5s;
+}
+
+.samsung img {
+    width: 200px;
+}
+
+.samsung:hover {
+    background-color: lightgray;
+}
+
+.instagram{
+    margin: auto;
+    text-decoration: none;
+    display: block;
+    width: 175px;
+    height:175px;
+    background-color: white;
+    border-radius: 40px;
+    transition: all .5s;
+}
+
+.instagram img{
+    margin: auto;
+    width: 150px;
+    margin-top: 12px;
+}
+
+.instagram:hover{
+    background-color:black;
+}
+
+.npr {
+    margin:auto;
+    display: inline-block;
+}
+
+.npr img{
+    width: 200px;
+}
+
+.npr:hover img {
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	animation-iteration-count:infinite;
+	backface-visibility: visible !important; 
+    animation-name: flipInX; 
+}
+
+@keyframes flipInX { 
+    0% { 
+        transform: perspective(400px) rotateX(90deg); 
+        opacity: 0; 
+    } 
+    40% { 
+        transform: perspective(400px) rotateX(-10deg); 
+    } 
+    70% { 
+        transform: perspective(400px) rotateX(10deg); 
+    } 
+    100% { 
+        transform: perspective(400px) rotateX(0deg); 
+        opacity: 1; 
+    } 
+} 
+
+.thecolorrun {
+    margin:auto;
+}
+
+.thecolorrun img{
+    width: 200px;
+    margin: auto;
+} 
+
+.thecolorrun:hover img {
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	animation-iteration-count:infinite;
+	animation-name: bounce; 
+}
+
+
+@keyframes bounce { 
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+    40% {transform: translateY(-30px);} 
+    60% {transform: translateY(-15px);} 
+} 
+
+
+.stjude{
+    margin: auto;
+    display:block
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: none;
+}
+
+.stjude img{
+    width: 250px;
+    margin: auto;
+}
+
+.stjude:hover{
+    margin: auto;
+    display: block;
+    background-color: white;
+    box-shadow: 0px 0px 277px 61px white;
+}
+
+.hsn {
+    margin:auto;
+    text-decoration: none;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 40px;
+}
+
+.hsn img {
+    margin: auto;
+    width:70px;
+    text-decoration:none;
+    padding: 3px 0 0 0;
+}
+
+.hsn:hover {
+    box-shadow: 0px 0px 277px 61px white;
+}
+
+.ibm {
+    margin: auto;
+    text-decoration: none;
+    display: block;
+    width: 178px;
+    height: 50px;
+    font-family: 'IBM Plex Mono', monospace;
+    color: #006699;
+    background-color: white;
+    font-size: 39px;
+    transition: all .5s;
+}
+
+.ibm:hover{
+    color: black;
+    background-color: lightgrey;
+}
+
+.thetonightshow{
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+
+.thetonightshow img{
+    margin: auto;
+    width: 150px;
+}
+
+.thetonightshow:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.michaelkors {
+    margin: auto;
+}
+
+.michaelkors img {
+    margin: auto;
+    width: 200px;
+    margin-top:2px;
+}
+
+.michaelkors:hover{
+    display: block;
+    margin: auto;
+    width: 220px;
+    height: 50px;
+    background-color:white;
+}
+
+.michaelkors:hover img{
+    margin-top: 13px;
+}
+
+.missouribotanical{
+    margin: auto;
+    transition: all .5s;
+    background-color: white;
+    width: 220px;
+    height: 110px;
+}
+
+.missouribotanical img{
+    margin: auto;
+    width: 200px;
+}
+
+.missouribotanical:hover img{
+    display:block;
+    width:200px;
+    box-shadow: 0px 0px 277px 61px white; 
+}
+
+.moo {
+    margin: auto;
+}
+
+.moo img {
+    margin: auto;
+    width: 175px;
+}
+
+.moo:hover img{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.electra {
+    margin: auto;
+    width: 200px;
+    height: 100px;
+}
+
+.electra img{
+    margin: auto;
+    width: 175px;
+}
+
+.electra:hover img{
+    background-color:#18affa;
+    box-shadow: 0 0 8px #18affa;
+}
