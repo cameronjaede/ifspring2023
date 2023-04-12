@@ -7,14 +7,32 @@ header{
     
 }
 
+nav#main-nav ul a{
+    color: white;
+    text-decoration: none;
+}
+
+nav#main-nav ul a:hover{
+    color: lightgray;
+    transition: all .5s;
+    font-size: 35px;
+}
+
+
 body{
     margin: 0px;
     background-color: black;
 }
+
 .bezerk-logo-white {
     width: 150px;
-    margin-right: 30px;
+    margin-right: 70px;
+    transition: all .5s;
+    margin-top: 10px;
+}
 
+#bezerk-logo-white:hover{
+    transform:scale(2.5);
 }
 
 .header-grid {
@@ -48,12 +66,116 @@ body{
 
 h1{
     font-family: "bmx-radical", sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     font-style: normal;
-    font-size: 20px;
+    font-size: 40px;
     text-transform: uppercase;
     color: white;
+    text-align: center;
 }
+
+.guts-big-gradient{
+    width: 100%
+}
+
+.vertical-lines{
+    width: 100%;
+}
+
+.logo-and-image{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-and-image img{
+    width: 600px;
+}
+
+.logo-and-quote{
+    width: 500px;
+}
+
+h2{
+    text-transform: uppercase;
+    color: white;
+    font-family: "bmx-radical", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+nav#journey-nav a{
+    text-transform: uppercase;
+    color: #be0501;
+    font-family: "bmx-radical", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 43px;
+    text-align: center;
+    margin-top: 0;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav#journey-nav a:hover{
+    color: darkgray;
+    transition: all .5s;
+    font-size: 48px;
+}
+h4{
+    font-family: "bmx-radical", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+}
+
+.characters-main-part{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.body-characters-text p{
+    color: white;
+    font-size: 18px;
+    margin-left: 350px;
+    margin-right: 350px;
+    font-family: "basic-sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+h5{
+    font-family: "bmx-radical", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #be0501;
+    text-align: left;
+    margin-top: 0;
+    margin-left: 350px;
+    margin-bottom: 5px;    
+    margin-top: 30px;
+}
+
+
+
+
+
 
 
 
@@ -69,7 +191,7 @@ img {
     
 /* Image-container design */
 .image-container {
-    max-width: 800px;
+    max-width: 700px;
     position: relative;
     margin: auto;
 }
@@ -113,4 +235,46 @@ img {
 .active,
 .footerdot:hover {
     background-color: gray;
+}
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to bottom, #000000, #350e17, #63081d, #920019, #be0501);
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    padding: 0;
+    margin-bottom:0px;
+    height: 200px;
+    font-family: "basic-sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin-right: 100px;
+    text-align: right;
+    line-height: 8px;
+    justify-content: right;
+}
+
+footer p{
+    line-height:12px;
+}
+
+footer .designed-by a{
+    color: white;
+}
+
+.designed-by{
+    margin-bottom: 10px;
+    text-align: right;
+    justify-content: right;
+    margin-top: 50px;
+    margin-right: 30px;
 }
