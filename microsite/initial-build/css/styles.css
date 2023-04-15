@@ -19,6 +19,8 @@ nav#main-nav ul a:hover{
 }
 
 
+
+
 body{
     margin: 0px;
     background-color: black;
@@ -72,8 +74,14 @@ h1{
     text-transform: uppercase;
     color: white;
     text-align: center;
+    flex-wrap: wrap;
 }
 
+@media (max-width: 450px){
+    h1{
+        font-size: 25px;
+    }
+}
 .guts-big-gradient{
     width: 100%
 }
@@ -87,18 +95,40 @@ h1{
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
-    justify-content: space-around;
     margin: 0;
     padding: 0;
+    justify-content: space-around;
 }
 
 .logo-and-image img{
     width: 600px;
 }
 
+@media (max-width:725px){
+    .logo-and-image img{
+        margin: auto;
+        width: 500px;
+    }
+}
+
+@media (max-width:535px){
+    .logo-and-image img{
+        margin: auto;
+        width: 400px;
+    }
+}
+
+@media (max-width:420px){
+    .logo-and-image img{
+        margin: auto;
+        width: 300px;
+    }
+}
+
 .logo-and-quote{
     width: 500px;
 }
+
 
 h2{
     text-transform: uppercase;
@@ -110,7 +140,11 @@ h2{
     text-align: center;
 }
 
-
+@media (max-width: 450px){
+    h2{
+        font-size: 25px;
+    }
+}
 nav#journey-nav a{
     text-transform: uppercase;
     color: #be0501;
@@ -124,6 +158,13 @@ nav#journey-nav a{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    margin-left: 20px;
+}
+
+@media (max-width:520px){
+    nav#journey-nav a{
+        margin: auto;
+    }
 }
 
 nav#journey-nav a:hover{
@@ -142,6 +183,11 @@ h4{
     margin-top: 0;
 }
 
+@media (max-width: 1000px){
+    h4{
+        margin-bottom: 30px;
+    }
+}
 .characters-main-part{
     display: flex;
     flex-wrap: wrap;
@@ -158,6 +204,43 @@ h4{
     font-style: normal;
 }
 
+@media (max-width: 1500px){
+    .body-characters-text p{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+}
+
+@media (max-width: 1000px){
+    .body-characters-text p{
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+}
+
+@media (max-width: 750px){
+    .body-characters-text p{
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+}
+
+@media (max-width: 550px){
+    .body-characters-text p{
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 525px){
+    .body-characters-text p{
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 14px;
+    }
+}
+
 h5{
     font-family: "bmx-radical", sans-serif;
     font-weight: 400;
@@ -172,7 +255,35 @@ h5{
     margin-top: 30px;
 }
 
+@media (max-width: 1500px){
+    h5{
+        margin-left: 200px;
+    }
+}
 
+@media (max-width: 1000px){
+    h5{
+        margin-left: 150px;
+    }
+}
+
+@media (max-width: 750px){
+    h5{
+        margin-left: 75px;
+    }
+}
+
+@media (max-width: 550px){
+    h5{
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 525px){
+    h5{
+        margin-left: 20px;
+    }
+}
 
 
 
@@ -195,7 +306,7 @@ img {
     position: relative;
     margin: auto;
 }
-    
+
 .next {
     right: 0;
 }
@@ -237,10 +348,33 @@ img {
     background-color: gray;
 }
 
+.characters-images img{
+    height: 400px;
+}
 
+@media (max-width:750px){
+    .characters-images img{
+        height: 300px;
+    }    
+}
 
+@media (max-width:600px){
+    .characters-images img{
+        height: 250px;
+    }    
+}
 
+@media (max-width:500px){
+    .characters-images img{
+        height: 200px;
+    }    
+}
 
+@media (max-width:400px){
+    .characters-images img{
+        height: 150px;
+    }    
+}
 
 
 
@@ -257,7 +391,6 @@ footer{
     font-family: "basic-sans", sans-serif;
     font-weight: 200;
     font-style: normal;
-    margin-right: 100px;
     text-align: right;
     line-height: 8px;
     justify-content: right;
@@ -278,3 +411,13 @@ footer .designed-by a{
     margin-top: 50px;
     margin-right: 30px;
 }
+
+@media (max-width: 450px){
+    .designed-by{
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+}
+
+
+
