@@ -133,7 +133,7 @@ nav#main-nav ul a:hover{
         font-weight: 400;
         font-style: normal;
         font-size: 30px;
-        text-decoration: underline;
+        text-decoration: none;
 
     }
 }
@@ -441,9 +441,6 @@ h5{
 img {
     width: 100%;
 }
-.height {
-    height: 10px;
-}
     
 /* Image-container design */
 .image-container {
@@ -494,9 +491,7 @@ img {
     background-color: gray;
 }
 
-.characters-images img{
-    height: 500px;
-}
+
 
 @media (max-width:1000px){
     .characters-images img{
